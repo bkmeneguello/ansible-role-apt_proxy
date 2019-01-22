@@ -1,0 +1,4 @@
+---
+apt_cache_http_proxy:
+apt_cache_conf_file_priority: 30
+apt_cache_conf_file_suffix: proxy

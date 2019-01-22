@@ -1,0 +1,7 @@
+---
+- hosts: localhost
+  become: true
+  vars:
+    apt_cache_http_proxy: http://10.0.0.2:3142
+  roles:
+    - bkmeneguello.apt_proxy

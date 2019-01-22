@@ -1,0 +1,27 @@
+---
+galaxy_info:
+  author: Bruno Kühnen Meneguello
+  description: Configure APT Proxy
+
+  role_name: apt_proxy
+
+  license: license (MIT)
+
+  min_ansible_version: 2.4
+
+  platforms:
+    - name: Debian
+      versions:
+        - all
+    - name: Ubuntu
+      versions:
+        - all
+    - name: Linux Mint
+      versions:
+        - all
+
+  galaxy_tags:
+    - apt
+    - proxy
+
+dependencies: []

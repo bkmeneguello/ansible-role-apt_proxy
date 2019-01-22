@@ -1,0 +1,6 @@
+---
+- name: Define APT HTTP proxy
+  copy:
+    content: 'Acquire::http::Proxy "{{ apt_cache_http_proxy }}";'
+    dest: '/etc/apt/apt.conf.d/{{ apt_cache_conf_file_priority }}{{ apt_cache_conf_file_suffix }}'
+  when: apt_cache_http_proxy is defined
